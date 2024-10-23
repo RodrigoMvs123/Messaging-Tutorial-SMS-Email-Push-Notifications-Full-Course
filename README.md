@@ -1,9 +1,11 @@
-Messaging Tutorial SMS Email Push Notifications Full Course
+
+## Messaging Tutorial SMS Email Push Notifications Full Course
 
 https://www.youtube.com/watch?v=bZFj8GCZmq4&t=518s 
 
 21:14
 
+```
 Introduction
 Targets
 The SDK
@@ -11,17 +13,20 @@ Sending an Email in Node.js
 Sending an SMS in Node.js
 Push Notifications
 Let's build a Project !
+```
 
 Targets
-
+```
 Devices 
 Phone Numbers
 Email Address
+```
 
-AppWrite
-https://appwrite.io/ 
+#### AppWrite
+- https://appwrite.io/ 
 
-Create a Project
+## Create a Project
+```
 Messaging 
 	Next
 Regions
@@ -51,18 +56,26 @@ Select targets to get started
 			Add
 
 SDK ( Software Development Kit )
+```
 
-Visual Studio Code
+## Visual Studio Code
 
-React Project
+#### React Project
+
 Terminal
+```
 npx create-react-app appwrite-messaging
+```
 
+## Source Code
+```
 Visual Studio Code
 Open Editors
 Explorer 
 index.js
+```
 
+```javascript
 index.js
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -75,13 +88,18 @@ root.render(
         <App />
     </React.StrictMode>
 )
+```
 
+## Source Code
+```
 Visual Studio Code
 Open Editors
 Explorer 
 index.js
 App.js
+```
 
+```javascript
 App.js
 const App = () => {
     return(
@@ -92,35 +110,51 @@ const App = () => {
 }
 
 export default App
+```
 
-Visual Studio Code
+## Visual Studio Code
+
 Terminal
+```
 npm i node-appwrite
+```
+
+## Source Code
+```
 Visual Studio Code
 Open Editors
 Explorer 
 index.js
 App.js
 package.json
+```
 
+```json
 package.json
 {
   "dependencies": {
     "node-appwrite": "^13.0.0"
   }
 }
+```
 
-Visual Studio Code
+## Visual Studio Code
 Terminal
+```
 npm i 
+```
 
+## Source Code
+```
 Visual Studio Code
 Open Editors
 Explorer 
 index.js
 App.js
 server.js
+```
 
+```javascript
 server.js
 const sdk = require('node-appwrite')
 
@@ -128,10 +162,12 @@ const client = new sdk.Client()
     .setEndpoint() // Your API Endpoint
     .setProject() // Your Project ID
     .setKey() // Your secret API Key
+```
 
 AppWrite UI
-https://appwrite.io/ 
+- https://appwrite.io/ 
 
+```
 AppWrite Messaging Project ID
 66eab5c400233fd76cc7 
 
@@ -153,14 +189,19 @@ Scopes
 
 API Kye
 standard_3f8e1eebb5554b0d2874dad2f9738c878323e3cd6f8d6e201d6882b16bb2763bff9d4b8efcaa0268669e3a5b7b4899f304ba15e6a3afd56e5bf00782eed14ae104f21c07eb3db2d4e753c38e3d0ae5d30063d985e4ba0d9b7590cbdb337ae728366b73820864a826e85dcf9a13e5074fc2f5d24cf1b215cb22a0576a6dee1f18
+```
 
+## Source Code
+```
 Visual Studio Code
 Open Editors
 Explorer 
 index.js
 App.js
 server.js
+```
 
+```javascript
 server.js
 const sdk = require('node-appwrite')
 
@@ -168,17 +209,18 @@ const client = new sdk.Client()
     .setEndpoint('https://cloud.appwrite.io/v1') // Your API Endpoint   
     .setProject('66eab5c400233fd76cc7') // Your Project ID
     .setKey('standard_3f8e1eebb5554b0d2874dad2f9738c878323e3cd6f8d6e201d6882b16bb2763bff9d4b8efcaa0268669e3a5b7b4899f304ba15e6a3afd56e5bf00782eed14ae104f21c07eb3db2d4e753c38e3d0ae5d30063d985e4ba0d9b7590cbdb337ae728366b73820864a826e85dcf9a13e5074fc2f5d24cf1b215cb22a0576a6dee1f18') // Your secret API Key
-
+```
     
 Sending an Email in Node.js
 
 Randomly Generated UUII ID 
-https://www.uuidgenerator.net/ 
+- https://www.uuidgenerator.net/ 
 ee5165ae-63b0-4df1-a1b7-e46864655071 
 
 AppWrite UI
-https://appwrite.io/
+- https://appwrite.io/
 
+```
 Auth 
 	User ID
 66eab5c400233fd76cc7
@@ -191,9 +233,12 @@ Create Provider
 		SendGrid
 Select a provider you would like to enable for sending emails.
 	Next
+```
 
 SendGrid UI
-https://sendgrid.com/en-us 
+- https://sendgrid.com/en-us 
+
+```
 Settings 
 	API Keys
 	Create API Key
@@ -202,10 +247,12 @@ Settings
 		Full Access 
 		Create and View 
 Copy and Paste API Key ( … ) 
+```
 
 AppWrite UI
-https://appwrite.io/
+- https://appwrite.io/
 
+```
 Messaging
 	Providers
 	API Key
@@ -220,11 +267,12 @@ Messaging
 	Reply to Name
 		Rodrigo
 	Update
-
+```
 
 SendGrid UI
-https://sendgrid.com/en-us 
+- https://sendgrid.com/en-us 
 
+```
 Dashboard
 	Sender Authentication
 		Start
@@ -248,11 +296,12 @@ Dashboard
 	Create
 	Close
 	Refresh Page
-
+```
 
 AppWrite UI
-https://appwrite.io/
+- https://appwrite.io/
 
+```
 Messaging
 Create Message
 	Email
@@ -271,26 +320,35 @@ Targets
 	Send
 	Send
 	Refresh Page
+```
 
+```
 Email ( rodrigomvsrodrigo@gmail.com )
 This is a test
 Rodrigo via sendgrid.net
 Hello
+```
 
-Visual Studio Code
+##Visual Studio Code
 Terminal
+```
 node server.js
+```
 
+```
 Email ( rodrigomvsrodrigo@gmail.com )
 Welcome!
 Rodrigo via sendgrid.net
 Hi
+```
 
 AppWrite UI
-https://appwrite.io/
+- https://appwrite.io/
 
+```
 Messaging
 	Refresh Page
+```
 
 
 
