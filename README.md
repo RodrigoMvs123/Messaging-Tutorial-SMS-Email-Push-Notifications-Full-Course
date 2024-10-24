@@ -350,6 +350,47 @@ Messaging
 	Refresh Page
 ```
 
+## Source Code
+```
+Visual Studio Code
+Open Editors
+Explorer 
+index.js
+App.js
+server.js
+```
+
+```javascript
+server.js
+const sdk = require('node-appwrite')
+
+const client = new sdk.Client()
+    .setEndpoint('https://cloud.appwrite.io/v1') // Your API Endpoint   
+    .setProject('66eab5c400233fd76cc7') // Your Project ID
+    .setKey('standard_3f8e1eebb5554b0d2874dad2f9738c878323e3cd6f8d6e201d6882b16bb2763bff9d4b8efcaa0268669e3a5b7b4899f304ba15e6a3afd56e5bf00782eed14ae104f21c07eb3db2d4e753c38e3d0ae5d30063d985e4ba0d9b7590cbdb337ae728366b73820864a826e85dcf9a13e5074fc2f5d24cf1b215cb22a0576a6dee1f18') // Your secret API Key
+
+const messaging = new sdk.Messaging(client)
+
+const sendEmail = async () => {
+	const message = await messaging.createEmail(
+		'ee5165ae-63b0-4df1-a1b7-e46864655071', // messageId
+		'Welcome!', // subject
+		'Hi', // content
+		[], // topics (optional)
+		['66eab5c400233fd76cc7'] // users (optional)
+	)
+	console.log(message)
+}
+sendEmail()
+```
+
+## Visual Studio Code
+Terminal
+```
+node server.js
+```
+
+
 
 
 
