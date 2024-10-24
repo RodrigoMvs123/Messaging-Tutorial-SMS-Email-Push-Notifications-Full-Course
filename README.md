@@ -392,6 +392,21 @@ node server.js
 
 Sending an SMS in node.js 
 
+AppWrite UI
+- https://appwrite.io/
 
+```
+Messaging
+Providers
+	+ Create Provider
+	SMS
+	Name
+		Twilio
+	Select a provider you would like to enable for sending SMS.
+		Twilio
+	Next
+```
 
+Twilio UI
+- https://www.twilio.com/en-us 
 
