@@ -410,3 +410,156 @@ Providers
 Twilio UI
 - https://www.twilio.com/en-us 
 
+```
+Account Info
+Account Sid
+	Copy... 
+```
+
+AppWrite UI
+- https://appwrite.io/
+
+```
+Messaging
+Providers
+	+ Create Provider
+	SMS
+	Name
+		Twilio
+	Select a provider you would like to enable for sending SMS.
+		Twilio
+	Next
+
+Settings 
+Set up the credentials below to enable Twilio for sending SMS.
+Account SID 
+	Past...
+```
+
+Twilio UI
+- https://www.twilio.com/en-us 
+
+```
+Account Info
+Account Sid
+	Copy... 
+
+Auth Token
+	Copy...
+```
+
+AppWrite UI
+- https://appwrite.io/
+
+```
+Messaging
+Providers
+	+ Create Provider
+	SMS
+	Name
+		Twilio
+	Select a provider you would like to enable for sending SMS.
+		Twilio
+	Next
+
+Settings 
+Set up the credentials below to enable Twilio for sending SMS.
+Account SID 
+	Past...
+
+Auth Token
+	Past...
+```
+
+Twilio UI
+- https://www.twilio.com/en-us 
+
+```
+Account Info
+Account Sid
+	Copy... 
+
+Auth Token
+	Copy...
+
+My Twilio phone number
+	Copy...
+```
+
+AppWrite UI
+- https://appwrite.io/
+
+```
+Messaging
+Providers
+	+ Create Provider
+	SMS
+	Name
+		Twilio
+	Select a provider you would like to enable for sending SMS.
+		Twilio
+	Next
+
+Settings 
+Set up the credentials below to enable Twilio for sending SMS.
+Account SID 
+	Past...
+
+Auth Token
+	Past...
+
+Sender Number
+	Past...
+
+	Create
+```
+
+Twilio UI
+- https://www.twilio.com/en-us 
+
+```
+Develop
+Messaging
+	Try it out
+		Send an SMS
+	
+Send to Virtual Phone
+	To
+	(Copy phone number ...)
+```
+
+AppWrite UI
+- https://appwrite.io/
+
+```
+Auth
+Phone
+	Phone
+	Past phone number...
+	Update
+
+Messaging
+	+ Create Message
+	SMS
+
+Message
+Create SMS messages that will be displayed to your subscribers. 
+Message
+	This is a test.
+	Next
+
+Targets
+Select targets to whom this message should be directed.
+	+
+	Select Targets
+	Rodrigo
+		SMS
+		Add
+		Next
+		Send
+		Send
+```
+
+
+
+
