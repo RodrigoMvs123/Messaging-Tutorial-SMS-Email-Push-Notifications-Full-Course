@@ -646,3 +646,22 @@ Understanding Push Notifications
 AppWrite UI
 - https://appwrite.io/
 
+```
+Providers
+	+ Create Provider
+	Push Notification
+
+Provider
+Name
+	APNS 
+Select a provider you would like to enable for sending notifications.
+	APNS
+	Apple Push Notification Service 
+	Next
+Settings...
+
+// appwrite.io/docs/products/messaging/send-push-notifications
+```
+
+Let us Build a Project !
+
