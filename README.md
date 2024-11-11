@@ -3,7 +3,7 @@
 
 https://www.youtube.com/watch?v=bZFj8GCZmq4&t=518s 
 
-21:14
+35:52 
 
 ```
 Introduction
