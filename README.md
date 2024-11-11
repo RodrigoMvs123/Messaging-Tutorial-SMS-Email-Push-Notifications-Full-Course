@@ -641,3 +641,8 @@ Timestamp      From           Status
 2024/...       (BR)+55...     Delivered
 ```
 
+Understanding Push Notifications 
+
+AppWrite UI
+- https://appwrite.io/
+
