@@ -3,7 +3,6 @@
 
 https://www.youtube.com/watch?v=bZFj8GCZmq4&t=518s 
 
-50:03
 
 ```
 Introduction
@@ -971,8 +970,8 @@ app.post('/register', async (req, resp) => {
 		console.log
 
 		if (result) {
-			sendEmail(result)
-			sendSMS(result)
+			await sendEmail(result)
+			await sendSMS(result)
 		}
 
 	} catch (error) {
@@ -1051,4 +1050,114 @@ Messages
 MessageID                                  TYPE      STATUS      SCHEDULE AT
 e7913030-5f10-4ed3-8256-fffcff3a089f       Email     Sent        -
 
+```
+
+## Source Code
+```
+Visual Studio Code
+Open Editors
+Explorer 
+index.js
+App.js
+server.js
+styles.css
+```
+
+```css
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@100;200;700&display=swap");
+
+*{
+	font-family: "Readex Pro", sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url("./images/purple-theme-background.jpg");
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-style: italic;	
+}
+
+p {
+	font-size: 15px;
+}
+
+.auth-modal {
+	background-color: rgb(255, 255, 255);
+	width: 360px;
+	border-radius: 10px;
+	padding: 40px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px rgba(0, 0, 0, 0.08) 0 0 0 1px; 
+}
+
+.auth-modal form {
+	display: flex;
+	flex-direction: column;
+}
+
+.auth-modal input {
+	padding: 8px;
+	margin: 8px;
+	font-size: 17px;
+
+}
+
+.auth-modal .form-button {
+	color: rgb( 255, 255, 255);
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 12px 30px;
+	border-radius: 30px;
+	margin: 6px;
+	border: rgb(255, 255, 255) solid 2px;
+	background: linear-gradient(45deg, rgb(185, 48, 254) rgb(255, 64, 153));
+}
+
+.auth-modal .form-button:hover {
+	color: rgb(48, 48, 48);
+	border: rgb( 48, 48, 48) solid 2px;
+}
+
+.auth-modal .link-container {
+	display: flex;
+	justify-content: space-betoween;
+}
+
+.auth-modal .link-container img {
+	width: 170px;
+	margin: 5px;
+}
+
+.close-icon {
+	float: right:
+}
+```
+
+localhost:3000
+
+```
+ⓧ
+
+Sign Up
+
+By signing up you agree to our terms and conditions. Learn about our Privacy Police before clicking submit.
+
+email		
+Phone Number 
+[] I agree to the termns and conditions. 
+Submit
+
+download the app
+
+Get it on		Download on the
+Google Play 	App Store
 ```
