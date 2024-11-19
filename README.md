@@ -1064,6 +1064,7 @@ styles.css
 ```
 
 ```css
+styles.css
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@100;200;700&display=swap");
 
 *{
